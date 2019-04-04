@@ -11,4 +11,11 @@ class Test extends Controller
 		$info = Db::name('group')->where('goods_id',$goods_id)->select();
 		print_r($info);
     }
+    /**
+     * 我在测试git远程仓库
+     */
+    public function hello()
+    {
+        echo "hello world";
+    }
 }
